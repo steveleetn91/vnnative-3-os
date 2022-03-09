@@ -1,6 +1,6 @@
 {
   "name": "vnnative-3-os",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detect OS of platform for Vn Native Framework",
   "main": "dist/index.js",
   "scripts": {

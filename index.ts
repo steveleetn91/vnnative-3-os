@@ -4,7 +4,7 @@ export default class VnNativeOsindex implements VnNativeOsindexInterface {
         let data : string;
         let platforms : any;
         platforms = window;
-        data = platforms.vnnativeos && platforms.vnnativeos.getOsName() ? platforms.vnnativeos.getOsName() : "web";
+        data = platforms.device && platforms.device.platform ? platforms.device.platform : "browser";
         return data;
     }
 }
